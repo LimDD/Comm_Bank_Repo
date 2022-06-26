@@ -34,6 +34,8 @@ Test Outcome: Successful, the user was able to reach the first question once the
 
 Test Outcome: Fail, due to automation regression testing, the HTTPS for this game broke as the page would no longer display the first question. This was only an issue in automation testing, upon testing manually (user interaction) this had proceeded as expected per the current solution.
 
+Test Outcome: Failed, was unable to proceed passed the 'Start' by.ID window pop up to proceed through to the questions.
+
 Test Four:
 
 Test four was used to display the leaderboard which is provided once a user has completed the test. This page was a quick test to display the leaderboard and proceed through the page into the Home page for COVID19 THE GAME
