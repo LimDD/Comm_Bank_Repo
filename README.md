@@ -8,15 +8,21 @@ Test one was a test to check the login funcionality of the website through an au
 
 To test this scenario out, users will populate their credentials in the Strings provided, then they will run the script (Please ensure the browser selenium-webdriver is catered to your specific browser) and then run a command in the terminal (using Visual Studio Code this was 'node tests/one.js). The browser will pop up and automate the following scenario above.
 
-Test outcome: Successful, the credentials were able to be populated as the returned String in the JS code, and then automatically lock onto the login button provided by the current solution.
+Test Outcome: Successful, the credentials were able to be populated as the returned String in the JS code, and then automatically lock onto the login button provided by the current solution.
 
-Test outcome: Successful, if a user had populated these variables with the incorrect credentails, this would display the 'Username or Password Incorrect' prompt provided by the current solution.
+Test Outcome: Successful, if a user had populated these variables with the incorrect credentails, this would display the 'Username or Password Incorrect' prompt provided by the current solution.
 
 Enhancement: If a user has entered in credentials that have not been picked up by the database (DB), or if the DB can not find a match on the user, the user would be redirected to the 'Register' page to create an account auto-populating the credentials with what they had initailly tried to log in with. 
 
 Note: Please note that a user must have created and registered an account before testing this functionality, this does not cater to users who have not registered.
 
 Test Two:
+
+Test two was the screen followed after loggin into COVID19 The Game, users would have the only option to 'Start Game' and proceed into the questionaire. This  test was more for a internal test using automation to check the unexpected issue with proceeding into the game encountered previously (A bug was recommeneded).
+
+Test Outcome: Successful, the user was able to proceed passed the 'Start Game' functionality into the next page which displayed a warning before proceeding through the game as per the current solution.
+
+Note: This test was purely for my internal test as I had issues with the 'Start Game' button when I first attempted the test. I suspect this was a cache issue with the browser I was using so I had to clear my cache and grids on my browser to proceed. This test was to see the automation bypass this error.
 
 Test Three:
 
