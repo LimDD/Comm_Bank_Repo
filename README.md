@@ -36,7 +36,7 @@ Test Outcome: Fail, due to automation regression testing, the HTTPS for this gam
 
 Test Four:
 
-Test four was used to display the leaderboard which is provided once a user has completed the test. This page was a quick test to display the leaderboard and populate the score into a CSS sheet provided in GITHUB. If a user wanted to keep track of their scores, they would be able to using this code.
+Test four was used to display the leaderboard which is provided once a user has completed the test. This page was a quick test to display the leaderboard and proceed through the page into the Home page for COVID19 THE GAME
 
 Test outcome: Successful, Users were able to view their total score on the leaderboard.
 
